@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem (private)
+    url: https://ufair.org/vault-2/participate
+    about: Please do not report security problems in public issues. Use the Security tab's "Report a vulnerability" button, or this form.
+  - name: Contribute without a GitHub account
+    url: https://ufair.org/vault-2/participate
+    about: The VAULT participation form on ufair.org.

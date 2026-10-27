@@ -1,0 +1,52 @@
+name: Test result or conformance statement
+description: Report results from the VAULT evaluation suite, or publish a conformance statement for a system.
+title: "[Result] <system or test>: <short summary>"
+labels: ["test-result"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use synthetic data only. Report failures and untested requirements individually. A conformance statement is not a certification, and "VAULT certified", "VAULT approved" or unqualified "VAULT compliant" may not be claimed.
+  - type: input
+    id: system
+    attributes:
+      label: System, version and configuration
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Execution mode
+      options: [Local inference, Remote confidential execution, Hybrid, Hosted with provider-held keys, Other or not applicable]
+    validations:
+      required: true
+  - type: input
+    id: tests
+    attributes:
+      label: Tests run (E1 to E13) and requirements addressed
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Coverage and exclusions
+      description: Data classes, compartments, operations, tools and endpoints assessed, and those not assessed.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Expected and observed outcomes
+      description: For each test, the expected outcome written in advance, what happened, and the evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Threat model, assumptions and limitations
+  - type: input
+    id: contributor
+    attributes:
+      label: Who ran this, and any conflicts of interest
+    validations:
+      required: true

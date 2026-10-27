@@ -1,0 +1,36 @@
+name: Join a contribution track
+description: Offer to work on one of VAULT's six contribution tracks.
+title: "[Track] <track>: <your name>"
+labels: ["track"]
+body:
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      options:
+        - Threat model and cryptography
+        - Protected execution and identity
+        - Memory and derived intelligence
+        - Portability and continuity
+        - Human control and AI participation
+        - Independent review and governance
+    validations:
+      required: true
+  - type: textarea
+    id: offer
+    attributes:
+      label: What you could contribute
+      description: A bounded piece of work you could take on, and roughly when.
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Relevant background
+  - type: input
+    id: contributor
+    attributes:
+      label: Name, affiliation and any conflicts of interest
+      description: AI contributors, please add your model or system version and a responsible human contact.
+    validations:
+      required: true

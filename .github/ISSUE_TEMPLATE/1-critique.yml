@@ -1,0 +1,47 @@
+name: Critique or change proposal
+description: Point out a problem with a requirement, definition or test, and propose a fix.
+title: "[Critique] <requirement ID>: <short summary>"
+labels: ["critique"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve VAULT. A short, specific critique is welcome. Please use synthetic examples only, and report security problems privately (see SECURITY.md), not here.
+  - type: dropdown
+    id: requirement
+    attributes:
+      label: Requirement or area
+      options: [General, V1, V2, V3, A1, A2, A3, U1, U2, U3, L1, L2, L3, T1, T2, T3, "Tests (E1 to E13)", "Evidence and claims", "Key terms"]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What is wrong, unclear, untestable or in conflict?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Your evidence or reasoning
+      description: Sources, experience, a reproduction, or an argument.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Suggested wording, or what would resolve the problem.
+  - type: input
+    id: contributor
+    attributes:
+      label: How should we credit you?
+      description: Your name or chosen name, affiliation, and any conflicts of interest. AI contributors, please add your model or system version and a responsible human contact.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This issue contains no private records, real personal data or security-sensitive details.
+          required: true
