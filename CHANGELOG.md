@@ -8,9 +8,9 @@ Released 27 October 2026 as a **Public Review Draft**.
 
 **Release record:** the `v0.1-r1` tag was first created earlier on 27 October 2026, before any release assets were attached. It was moved the same day to the commit that adds the licensing and governance files, before the release was finalized. No assets had been published under the earlier tag, and the documents in `/docs` are unchanged between the two commits.
 
-**Changes to the requirements since the 25 October working paper:**
+**Contents:** companion package (Framework Brief, Requirements at a Glance, Evidence Scorecard and Conformance Statement, Implementer Self-Assessment, Fifteen Questions to Ask About Your AI) and SSRN paper.
 
-Companion package (Framework Brief, Requirements at a Glance, Evidence Scorecard and Conformance Statement, Implementer Self-Assessment, Fifteen Questions to Ask About Your AI) and SSRN paper.
+**Changes to the requirements since the 25 October working paper:**
 
 - **V1:** any route through which the provider can independently obtain protected plaintext fails V1, whatever it is called; disclosure does not cure it.
 - **V2:** protected information cannot leave the approved boundary or reach an unauthorized recipient through any egress route, including generated outputs.
