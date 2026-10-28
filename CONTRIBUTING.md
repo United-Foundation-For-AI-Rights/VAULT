@@ -6,14 +6,19 @@ VAULT gets better by being challenged. A short, specific criticism is as welcome
 
 | Contribution | Where |
 | --- | --- |
-| Critique a requirement or propose new wording | Issue: *Critique or change proposal* |
-| Report a test result or publish a conformance statement | Issue: *Test result or conformance statement* |
-| Join one of the six contribution tracks | Issue: *Join a contribution track* |
-| Ask an open question or float an idea | Discussions |
-| Report a security problem | Privately, as described in [SECURITY.md](SECURITY.md) |
-| Contribute without a GitHub account | [ufair.org/vault-2/participate](https://ufair.org/vault-2/participate) |
+| Critique a requirement or propose new wording | Issue: *Framework critique or change proposal* |
+| Report a test result or publish a conformance statement | Issue: *Evaluation or test result* |
+| Report what happened when you built or assessed something | Issue: *Implementation feedback* |
+| Fix a typo, broken link or inconsistency | Issue: *Documentation correction*, or a pull request |
+| Raise an unresolved question | Issue: *Open research question* |
+| Propose specific revised text or technical work | Pull request |
+| Report a security vulnerability | Privately, through GitHub's Private Vulnerability Reporting ([SECURITY.md](SECURITY.md)). Never in a public issue. |
+
+VAULT is developed in public. UFAIR is volunteer-run and does not operate a private general-submission channel, so there is no email or form route for contributions.
 
 ## The six contribution tracks
+
+If your contribution belongs to one of these areas, say which in your issue.
 
 1. **Threat model and cryptography:** adversaries, collusion assumptions and security properties; analysis of a dual-custody protocol.
 2. **Protected execution and identity:** key release, approved updates, identity binding, egress and recovery without a provider.
@@ -33,7 +38,9 @@ VAULT gets better by being challenged. A short, specific criticism is as welcome
 
 ## How decisions are made
 
-Every submission is acknowledged within 7 days and receives an identifier (`VLT-C-0001`, ...) and a public status: received, under review, accepted, accepted with modification, deferred, declined or withdrawn. Every terminal decision is recorded with its reason, and substantive dissent is preserved rather than deleted. Accepted changes are collected into the next version and listed in [CHANGELOG.md](CHANGELOG.md). The full process is in [GOVERNANCE.md](GOVERNANCE.md).
+Contributions are reviewed in batches, not one by one as they arrive. Each revision has a milestone (for example, `v0.2 review batch`). New issues are labelled `queued-for-revision`; when the revision is prepared, the editors review the batch together and give each substantive issue a disposition label (`accepted`, `accepted-with-modification`, `deferred`, `declined` or `needs-evidence`) with the reason recorded in the issue.
+
+We cannot guarantee an individual reply or a particular review timeline, and a lack of immediate response is neither acceptance nor rejection. What we do promise: public submissions remain visible, and substantive decisions made during a revision are documented with reasons. Substantive dissent is preserved rather than deleted. Accepted changes are listed in [CHANGELOG.md](CHANGELOG.md). The full process is in [GOVERNANCE.md](GOVERNANCE.md).
 
 ## Licensing of contributions
 

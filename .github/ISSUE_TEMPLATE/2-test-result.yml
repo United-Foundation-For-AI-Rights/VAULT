@@ -1,12 +1,12 @@
-name: Test result or conformance statement
+name: Evaluation or test result
 description: Report results from the VAULT evaluation suite, or publish a conformance statement for a system.
 title: "[Result] <system or test>: <short summary>"
-labels: ["test-result"]
+labels: ["test-result", "queued-for-revision"]
 body:
   - type: markdown
     attributes:
       value: |
-        Use synthetic data only. Report failures and untested requirements individually. A conformance statement is not a certification, and "VAULT certified", "VAULT approved" or unqualified "VAULT compliant" may not be claimed.
+        Use synthetic data only. Results are reviewed in batches when each revision is prepared. Report failures and untested requirements individually. A conformance statement is not a certification, and "VAULT certified", "VAULT approved" or unqualified "VAULT compliant" may not be claimed.
   - type: input
     id: system
     attributes:

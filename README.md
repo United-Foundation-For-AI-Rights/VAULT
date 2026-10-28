@@ -34,7 +34,7 @@ VAULT is published by the [United Foundation for AI Rights (UFAIR)](https://ufai
 docs/      The working paper and the framework package, as PDF and Word
 spec/      The fifteen requirements, one file per pillar, plus key terms and evidence rules
 tests/     The evaluation suite (E1 to E13)
-.github/   Issue templates for critiques, test results and joining a track
+.github/   Issue templates for contributions
 LICENSES/  Full texts of the three licenses
 ```
 
@@ -42,12 +42,21 @@ Each release (see **Releases** on the right) is a fixed, citable version of all 
 
 ## How to take part
 
-- **Critique or propose a change:** open an issue with the *Critique or change proposal* template and name the requirement ID (for example, A2).
-- **Share test results or a conformance statement:** use the *Test result or conformance statement* template.
-- **Join a contribution track:** use the *Join a contribution track* template.
-- **Open questions and ideas:** use **Discussions**.
-- **Not on GitHub?** Use the form at [ufair.org/vault-2/participate](https://ufair.org/vault-2/participate).
-- **Security issue?** Do not open a public issue. See [SECURITY.md](SECURITY.md).
+VAULT is developed in public through GitHub. Open an [issue](https://github.com/United-Foundation-For-AI-Rights/VAULT/issues/new/choose) with the matching template, and name the VAULT version and the requirement (for example, A2) or test (for example, E13) wherever possible:
+
+- **Framework critique or change proposal**
+- **Evaluation or test result**
+- **Implementation feedback**
+- **Documentation correction**
+- **Open research question**
+
+For a specific revision to the text or a technical contribution, open a **pull request**.
+
+**Security vulnerabilities must be reported privately** through GitHub's [Private Vulnerability Reporting](https://github.com/United-Foundation-For-AI-Rights/VAULT/security/advisories/new) and must never be posted as public issues. See [SECURITY.md](SECURITY.md).
+
+UFAIR is volunteer-run and does not operate a private general-submission channel. Public contributions are reviewed in batches when each revision is prepared. We cannot guarantee an individual reply or a particular review timeline, and a lack of immediate response is neither acceptance nor rejection. What we do promise: public submissions remain visible, and substantive decisions made during a revision are documented with reasons.
+
+Public participation is intentional: VAULT's reasoning, disagreements, revisions and unresolved questions should remain inspectable as part of the framework's history.
 
 Participation does not require agreement on whether AI systems are conscious. It does require accurate attribution, explicit assumptions, evidence proportionate to claims, and respect for information that belongs to other people.
 

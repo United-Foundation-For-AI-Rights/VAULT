@@ -28,7 +28,23 @@ Every substantive contribution receives an identifier (`VLT-C-0001`, `VLT-C-0002
 | Declined | Not incorporated; the reason is stated. |
 | Withdrawn | Withdrawn by the contributor. |
 
-Every terminal decision (accepted, accepted with modification, declined, withdrawn) is recorded with its reason. Decisions are made by consensus of the editors where possible. Where editors disagree, the responsible maintainer decides, and the disagreement is recorded.
+Every terminal decision (accepted, accepted with modification, declined, withdrawn) is recorded with its reason.
+
+### Review in revision batches
+
+VAULT is reviewed in batches, not as a continuous correspondence obligation. Each revision has a GitHub milestone (for example, `v0.2 review batch`). Issues carry these labels:
+
+| Label | Status |
+| --- | --- |
+| `queued-for-revision` | Received; waiting for the next revision's review |
+| `needs-evidence` | Under review; more evidence or a reproduction is needed |
+| `accepted` | Accepted |
+| `accepted-with-modification` | Accepted with modification |
+| `deferred` | Deferred |
+| `declined` | Declined |
+| `security-use-private-reporting` | Posted publicly but security-sensitive; moved to private reporting |
+
+At the end of each revision cycle, the editors disposition the accumulated issues in one concentrated review. VAULT does not promise that every issue will receive a response. It promises that public submissions remain visible and that substantive decisions made during a revision are documented with reasons. Decisions are made by consensus of the editors where possible. Where editors disagree, the responsible maintainer decides, and the disagreement is recorded.
 
 ## Principles that bind the working group
 

@@ -1,0 +1,30 @@
+name: Documentation correction
+description: A typo, broken link, inconsistency between documents, or an unclear sentence.
+title: "[Docs] <document>: <short summary>"
+labels: ["docs", "queued-for-revision"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections that do not change what a requirement means go here. If the correction changes a requirement's meaning, please use "Framework critique or change proposal" instead. You are also welcome to open a pull request directly for a small fix.
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      description: File or document name, and section, page or line.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested correction
+  - type: input
+    id: contributor
+    attributes:
+      label: How should we credit you? (optional)

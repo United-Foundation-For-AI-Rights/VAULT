@@ -1,0 +1,54 @@
+name: Implementation feedback
+description: Tell us what happened when you tried to build, deploy or assess something against VAULT.
+title: "[Implementation] <requirement ID or area>: <short summary>"
+labels: ["implementation", "queued-for-revision"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for practical experience: a requirement that was hard to meet, ambiguous to assess, too costly, or missing something an implementer needs. Feedback is reviewed in batches when each revision is prepared; we cannot guarantee an individual reply. Use synthetic data only, and report security problems privately (see SECURITY.md), never here.
+  - type: input
+    id: version
+    attributes:
+      label: VAULT version
+      placeholder: "v0.1-r1"
+    validations:
+      required: true
+  - type: input
+    id: requirements
+    attributes:
+      label: Requirements or tests concerned
+      placeholder: "e.g. A2, L3, E13"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What you were building or assessing
+      description: The kind of system, execution mode and scope. Do not include credentials or security-sensitive technical details.
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: What happened
+      description: What was difficult, unclear, impossible or unnecessary, and why.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would help
+      description: Clearer wording, a missing definition, a different minimum outcome, a reference design, or anything else.
+  - type: input
+    id: contributor
+    attributes:
+      label: How should we credit you?
+      description: Your name or chosen name, affiliation, and any conflicts of interest. AI contributors, please add your model or system version and a responsible human contact.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: This issue contains no private records, real personal data, credentials or security-sensitive details.
+          required: true

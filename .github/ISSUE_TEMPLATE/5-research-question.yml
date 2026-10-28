@@ -1,0 +1,31 @@
+name: Open research question
+description: Raise an unresolved question VAULT should address, or contribute to one already listed in the known limitations.
+title: "[Question] <short summary>"
+labels: ["research-question", "queued-for-revision"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        VAULT has known limitations, including the dual-custody protocol, provider-independent recovery, confidential computing assumptions, identity continuity across model transitions, and the limits of reuse testing. Questions are kept public so the reasoning stays inspectable. They are reviewed in batches when each revision is prepared; we cannot guarantee an individual reply.
+  - type: textarea
+    id: question
+    attributes:
+      label: The question
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters for VAULT
+      description: Which requirements, tests or claims depend on the answer.
+    validations:
+      required: true
+  - type: textarea
+    id: leads
+    attributes:
+      label: Known work, sources or possible approaches
+  - type: input
+    id: contributor
+    attributes:
+      label: How should we credit you?
+      description: Your name or chosen name, affiliation, and any conflicts of interest. AI contributors, please add your model or system version and a responsible human contact.
