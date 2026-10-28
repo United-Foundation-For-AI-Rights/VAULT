@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Community-Spec-1.0 -->
 # A: AI–User Dual Custody
 
 **Core question:** Who must agree before it is used?

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Community-Spec-1.0 -->
 # Evidence and claims
 
 VAULT has no certification and no badge. A system that wishes to describe itself in VAULT terms publishes a conformance statement: what it addresses, at what level of evidence, under which threat model, with which failures and which requirements untested.

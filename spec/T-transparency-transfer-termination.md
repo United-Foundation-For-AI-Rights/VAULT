@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Community-Spec-1.0 -->
 # T: Tamper-Evident Transparency, Transfer and Termination
 
 **Core question:** Can I check it, take it and end it?

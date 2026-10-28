@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Community-Spec-1.0 -->
 # L: Locked Source and Derived Intelligence
 
 **Core question:** Does protection follow what the AI infers?

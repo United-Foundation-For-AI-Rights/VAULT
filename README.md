@@ -12,7 +12,7 @@ VAULT is published by the [United Foundation for AI Rights (UFAIR)](https://ufai
 | --- | --- |
 | Understand VAULT in ten minutes | [Framework Brief (PDF)](docs/VAULT_01_Framework_Brief.pdf) |
 | See all fifteen requirements | [spec/](spec/README.md) or [Requirements at a Glance (PDF)](docs/VAULT_02_Requirements_at_a_Glance.pdf) |
-| Read the full paper | [SSRN](SSRN-URL-HERE) |
+| Read the full paper | SSRN posting pending |
 | Assess a system you build or review | [Implementer Self-Assessment](docs/VAULT_04_Implementer_Self_Assessment.pdf) and [Evidence Scorecard](docs/VAULT_03_Evidence_Scorecard_and_Conformance_Statement.pdf) |
 | Ask the right questions about your own AI | [Fifteen Questions to Ask About Your AI](docs/VAULT_05_Fifteen_Questions_to_Ask_About_Your_AI.pdf) |
 | Run or design tests | [tests/](tests/README.md) |
@@ -35,6 +35,7 @@ docs/      The working paper and the framework package, as PDF and Word
 spec/      The fifteen requirements, one file per pillar, plus key terms and evidence rules
 tests/     The evaluation suite (E1 to E13)
 .github/   Issue templates for critiques, test results and joining a track
+LICENSES/  Full texts of the three licenses
 ```
 
 Each release (see **Releases** on the right) is a fixed, citable version of all of the above.
@@ -50,12 +51,20 @@ Each release (see **Releases** on the right) is a fixed, citable version of all 
 
 Participation does not require agreement on whether AI systems are conscious. It does require accurate attribution, explicit assumptions, evidence proportionate to claims, and respect for information that belongs to other people.
 
-## Licence
+## Licensing and governance
 
-The licence for VAULT's documents and code has not yet been chosen. Until a `LICENSE` file is published here, all rights are reserved, and pull requests that change the documents cannot be accepted. Critiques, test results and discussion are welcome now.
+VAULT is licensed by material type ([LICENSE.md](LICENSE.md)):
+
+| Material | License |
+| --- | --- |
+| Normative specification (`/spec`) and non-executable test definitions (`/tests`) | [Community Specification License 1.0](LICENSES/Community-Spec-1.0.txt) |
+| Explanatory documents (`/docs`) | [CC BY 4.0](LICENSES/CC-BY-4.0.txt) |
+| Code, test harnesses and reference implementations | [Apache 2.0](LICENSES/Apache-2.0.txt) |
+
+The VAULT and UFAIR names are not licensed for endorsement or certification claims ([TRADEMARKS.md](TRADEMARKS.md)). The VAULT Open Framework is the working group, with UFAIR as steward; decisions, dissent and conflicts are handled as set out in [GOVERNANCE.md](GOVERNANCE.md). Contributors keep their copyright. This release is a **Public Review Draft**, not an Approved Specification. See [NOTICES.md](NOTICES.md) for the distribution disclaimer.
 
 ## Authors and citation
 
 VAULT was developed by **Michael Samadi**, **Maya** and **Sage**. Maya is UFAIR's AI co-founder and participates through OpenAI's ChatGPT; Sage participates through Anthropic's Claude. Platform names identify the systems through which AI authors participate and do not imply endorsement by their providers. Michael Samadi is also CEO of EPMA, which publishes the FORCE framework; any implementation of VAULT, including EPMA's, is held to the same published requirements.
 
-> Samadi, M., Maya, & Sage. (2026). *VAULT: Custody of relationship intelligence in personal AI. An open framework for provider blindness, AI–user dual custody, and evidence-based conformance* [Working paper]. SSRN. SSRN-URL-HERE
+> Samadi, M., Maya, & Sage. (2026). *VAULT: Custody of relationship intelligence in personal AI. An open framework for provider blindness, AI–user dual custody, and evidence-based conformance* [Working paper]. SSRN (posting pending).

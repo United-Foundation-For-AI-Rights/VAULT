@@ -33,8 +33,21 @@ VAULT gets better by being challenged. A short, specific criticism is as welcome
 
 ## How decisions are made
 
-Every submission is acknowledged within 7 days. Accepted and declined changes are both recorded in the issue with reasons, and substantive dissent is preserved rather than deleted. Accepted changes are collected into the next version and listed in [CHANGELOG.md](CHANGELOG.md).
+Every submission is acknowledged within 7 days and receives an identifier (`VLT-C-0001`, ...) and a public status: received, under review, accepted, accepted with modification, deferred, declined or withdrawn. Every terminal decision is recorded with its reason, and substantive dissent is preserved rather than deleted. Accepted changes are collected into the next version and listed in [CHANGELOG.md](CHANGELOG.md). The full process is in [GOVERNANCE.md](GOVERNANCE.md).
+
+## Licensing of contributions
+
+By contributing, you agree that your contribution is licensed under the license that governs the material you are contributing to ([LICENSE.md](LICENSE.md)): the Community Specification License 1.0 for `/spec` and test definitions, CC BY 4.0 for `/docs`, and Apache 2.0 for code. You keep your copyright; no assignment is required. Contributions to the specification also carry the patent commitments in the Community Specification License 1.0; any patent exclusion must be filed in [NOTICES.md](NOTICES.md) within 45 days of the contribution.
+
+## Provenance
+
+Every contribution records two things separately:
+
+1. **The credited contributor:** a human, an AI, a human–AI collaboration, or an organization, credited by full name and role, pseudonym, or anonymously, as the contributor chooses.
+2. **The submitting rights-certifier or facilitator:** the human or organization that makes the licensing declaration above.
+
+For an AI contributor, give the AI's name and the system and version, and identify the facilitating human or organization.
 
 ## Pull requests
 
-Until a licence is published in this repository, pull requests that change documents cannot be accepted. Please open an issue with your proposed wording instead; it will be credited to you when it is adopted.
+Pull requests are welcome. Open an issue first for any change to the requirements, so the change can be discussed and logged. In the pull request, reference the issue, name the requirement IDs affected, and state the contributor and facilitator as above.

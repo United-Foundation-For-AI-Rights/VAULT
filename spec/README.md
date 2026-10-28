@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Community-Spec-1.0 -->
 # VAULT specification
 
 The fifteen requirements, one file per pillar. Requirement IDs are stable: refer to them (for example, "A2") in issues and proposals.

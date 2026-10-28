@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Community-Spec-1.0 -->
 # Key terms
 
 **Covered operation.** Any action that accesses protected source or derived material; discloses it to a recipient; creates, changes or revokes a grant or policy; changes the AI identity or its execution environment; exports, imports, corrects or deletes protected material; or exercises recovery. Computation inside an already authorized operation is not a separate covered operation, so receipts do not require logging internal model activity.

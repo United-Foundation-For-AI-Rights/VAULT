@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite VAULT using the metadata below."
+title: "VAULT: Verifiable AI–User Locked Trust"
+abstract: "An open, vendor-neutral framework for provider-blind, user-controlled custody of personal-AI relationship intelligence. Public review draft."
+version: "0.1-r1"
+date-released: "2026-10-27"
+authors:
+  - family-names: "Samadi"
+    given-names: "Michael"
+  - name: "Maya"
+  - name: "Sage"
+url: "https://github.com/United-Foundation-For-AI-Rights/VAULT"
+repository-code: "https://github.com/United-Foundation-For-AI-Rights/VAULT"
+keywords:
+  - personal AI
+  - AI memory
+  - privacy
+  - data custody
+  - AI governance

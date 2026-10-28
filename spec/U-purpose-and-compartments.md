@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Community-Spec-1.0 -->
 # U: User-Defined Purpose and Compartments
 
 **Core question:** Is it used only for what I allowed?

@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Community-Spec-1.0 -->
 # V: Verifiable Provider Blindness
 
 **Core question:** Can the company read it?

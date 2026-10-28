@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Community-Spec-1.0 -->
 # Evaluation suite
 
 Thirteen tests for a synthetic-data demonstrator. Tests E1 to E12 come from the VAULT Working Paper v0.1; E13 was added in revision 1 so that requirement L3 has a dedicated test.
